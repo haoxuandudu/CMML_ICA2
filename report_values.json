@@ -1,0 +1,25 @@
+{
+  "n_cells_original_subset": 4989,
+  "n_observations_after_missingness_split": 4989,
+  "n_genes": 3000,
+  "n_peaks": 5000,
+  "n_cell_types": 17,
+  "largest_cell_type": "CD14 Mono",
+  "rarest_cell_type": "pDC",
+  "methods": [
+    "Cobolt",
+    "MultiVI",
+    "MOFA_plus"
+  ],
+  "best_method": "Cobolt",
+  "best_overall_mean_score": 0.7084368486598513,
+  "best_ASW_celltype": 0.17067736387252808,
+  "best_ASW_batch": -0.018091605976223946,
+  "best_modality_neighbor_entropy": 0.8195469536269767,
+  "best_ARI": 0.46181874209624835,
+  "best_NMI": 0.6935714716159915,
+  "best_runtime_seconds": 110.55167942494154,
+  "metrics_table": "/root/multivi_project/multivi_project/tables/method_metrics.csv",
+  "figure1": "/root/multivi_project/multivi_project/figures/figure1_umap_methods.png",
+  "figure2": "/root/multivi_project/multivi_project/figures/figure2_metrics.png"
+}
